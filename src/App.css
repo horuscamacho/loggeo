@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-logo {
@@ -36,3 +38,21 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*
+LOS ESTILOS QUE CAMBIAN SEGÚN EL ESTADO DE LA AUTENTICACIÓN
+*/
+.success{
+  background-color: chartreuse;
+}
+
+.error{
+  background-color: red;
+}
+
+.loading{
+  opacity: .50;
+  background-color: gray;
+}
+
